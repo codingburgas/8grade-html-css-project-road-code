@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/signup.css" />
+    <title>Sign Up - NestDrive</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../assets/logo.png" class="logo"></a>
+        <div class="sign">
+            <ul>
+                <a href="signin.html" class="signin-a"><li class="signin">Sign In</li></a>
+                <a href="signup.html" class="signup-a"><li class="signup">Sign up</li></a>
+            </ul>
+        </div>
+    </header>
+    <div class="form-wrapper">
+        <form action="../index.html">
+            <h2>Create Your Account</h2>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
