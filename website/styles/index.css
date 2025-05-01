@@ -16,6 +16,7 @@ body {
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    flex-direction: column;
 }
 
 .main-text {
@@ -62,4 +63,36 @@ body {
 
 .card h3 {
     max-width:200px;
+}
+
+.book {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+.book a {
+    text-decoration: none;
+    color: black;
+}
+
+.book:hover {
+    background-color: rgba(227, 227, 227, 0.54);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80rem;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
