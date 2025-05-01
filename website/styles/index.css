@@ -43,7 +43,7 @@ body {
     flex: 1;
     max-width: 350px; 
     min-width: 300px; 
-    height: 200px;
+    height: 100px;
     background-color: white;
     border-radius: 14px;
     text-align: center;
@@ -58,4 +58,8 @@ body {
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    max-width:200px;
 }
