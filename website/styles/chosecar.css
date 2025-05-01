@@ -1,0 +1,122 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .hero {
+    background-color: #e8e8e8;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .cta-button {
+    background-color: #00703c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .category-tab {
+    color: #00703c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .car-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .car-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .car-card h3 {
+    color: #00703c;
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .car-card p {
+    margin: 0 0 10px;
+    color: #444;
+  }
+  
+  .car-card .details {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .car-card button {
+    background-color: #00703c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .back {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .back a {
+    text-decoration: none;
+  }
+  
+  
+  
+  
