@@ -1,0 +1,99 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .description {
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  .show-more {
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: #00703c;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 1.5rem;
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  .icons {
+    margin: 0.5rem 0;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .features {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .features ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+  }
+  
+  .car-image img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+  }
+  .toggle-checkbox {
+    display: none;
+  }
+  
+  .more-text {
+    display: none;
+  }
+  
+  .toggle-button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button .hide {
+    display: none;
+  }
+  
+  .toggle-checkbox:checked ~ .description .more-text {
+    display: inline;
+  }
+  
+  .toggle-checkbox:checked ~ .toggle-button .show {
+    display: none;
+  }
+  
+  .toggle-checkbox:checked ~ .toggle-button .hide {
+    display: inline;
+  }
