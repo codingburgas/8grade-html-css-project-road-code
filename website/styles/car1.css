@@ -97,3 +97,25 @@ body {
   .toggle-checkbox:checked ~ .toggle-button .hide {
     display: inline;
   }
+  .back {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .back a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back a:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+  }
+  
