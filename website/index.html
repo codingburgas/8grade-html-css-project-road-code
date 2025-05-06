@@ -1,109 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/index.css">
-        <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="../website/styles/footer.css">
-        <title>NestDrive</title>
-    </head>
-      
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NestDrive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Inter:wght@400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="styles/header.css"/>
+  <link rel="stylesheet" href="styles/footer.css"/>
+  <link rel="stylesheet" href="/website/styles/searchbar.css"/>
+</head>
+
 <body>
-    <header>
-        <a href="index.html"><img src="assets/logo.png" class="logo"></a>
-        <div class="sign">
-                <ul>
-                    <a href="pages/signin.html" class="signin-a"><li class="signin">Sign In</li></a>
-                    <a href="pages/signup.html" class="signup-a"><li class="signup">Sign up</li></a>
-                </ul>
-        </div>
-    </header>
-    <div class="main">
-        <div class="main-text">
-            <h1>NestDrive – The Art of Car Rental.</h1>
-        </div>
-        <div class="book">
-            <a href="pages/chosecar.html">Book Now</a>
-        </div>
+  <header>
+    <a href="index.html"><img src="assets/logo.png" class="logo" alt="NestDrive Logo"/></a>
+    <div class="sign">
+      <ul>
+        <a href="pages/signin.html" class="signin-a"><li class="signin">Sign In</li></a>
+        <a href="pages/signup.html" class="signup-a"><li class="signup">Sign Up</li></a>
+      </ul>
     </div>
+  </header>
 
-
-    <div class="info">
-        <p>Discover a Better Way to Rent with NestDrive</p>
-        <p>At NestDrive, we make car rental simple, reliable, and tailored to your needs. Whether you're traveling for business, enjoying a weekend getaway, or need a temporary ride, our wide selection of clean, well-maintained vehicles is ready for the road. From compact cars to luxury models, we have the perfect option for every occasion.</p>
-        <p>Enjoy transparent pricing, flexible rental periods, and 24/7 customer support—all designed to give you confidence and control. Our quick online booking system and convenient pick-up options make the process seamless from start to finish.</p>
-        <p>More than just transportation, NestDrive is about the freedom to explore on your terms. Join countless satisfied customers and experience how easy and enjoyable car rental can be.</p>
+  <div class="main">
+    <div class="main-text">
+      <h1>NestDrive – The Art of Car Rental.</h1>
     </div>
+  </div>
 
-    <div class="cards">
-        <a href="pages/whyrent.html" class="linkcard">
-        <div class="card">
-            <h3>Why Rent a Car?</h3>
-        </div>
+  <div class="info">
+    <p>Discover a Better Way to Rent with NestDrive</p>
+    <p>At NestDrive, we make car rental simple, reliable, and tailored to your needs. Whether you're traveling for business, enjoying a weekend getaway, or need a temporary ride, our wide selection of clean, well-maintained vehicles is ready for the road. From compact cars to luxury models, we have the perfect option for every occasion.</p>
+    <p>Enjoy transparent pricing, flexible rental periods, and 24/7 customer support—all designed to give you confidence and control. Our quick online booking system and convenient pick-up options make the process seamless from start to finish.</p>
+    <p>More than just transportation, NestDrive is about the freedom to explore on your terms. Join countless satisfied customers and experience how easy and enjoyable car rental can be.</p>
+</div>
+
+  <div class="cards">
+    <a href="pages/whyrent.html" class="linkcard">
+      <div class="card"><h3>Why Rent a Car?</h3></div>
     </a>
-<a href="pages/whenrent.html" class="linkcard">
-        <div class="card">
-            <h3>When Is It Best To Rent a Car?</h3>
-        </div>
+    <a href="pages/whenrent.html" class="linkcard">
+      <div class="card"><h3>When Is It Best To Rent a Car?</h3></div>
     </a>
+    <a href="pages/rentalreq.html" class="linkcard">
+      <div class="card"><h3>What You Need to Know Before Renting a Car</h3></div>
+    </a>
+    <a href="pages/typecars.html" class="linkcard">
+      <div class="card"><h3>Main Types of Rental Cars & Choosing the Right One</h3></div>
+    </a>
+  </div>
 
-        <a href="pages/rentalreq.html" class="linkcard">
-            <div class="card">
-                <h3>What You Need to Know Before Renting a Car</h3>
-            </div>
-        </a>
+  <div class="rental-search-wrapper">
+    <form class="search-bar-alt">
+      <input type="text" placeholder="Airport, city or station" required />
 
-        <a href="pages/typecars.html" class="linkcard">
-            <div class="card">
-                <h3>Main Types of Rental Cars & Choosing the Right One</h3>
-            </div>
-        </a>
+      <div class="field-alt">
+        <label for="pickup-date">Pickup</label>
+        <input type="date" id="pickup-date" required />
+        <input type="time" value="10:00" required />
+      </div>
+
+      <a href="/website/pages/chosecar.html">
+        <button type="button" class="search-btn-alt">Search</button>
+      </a>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <img src="assets/logo.png" alt="NestDrive Logo" class="footer-logo"/>
+        <p>NestDrive – The Art of Car Rental.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/whyrent.html">Why Rent?</a></li>
+          <li><a href="pages/typecars.html">Types of Cars</a></li>
+          <li><a href="pages/rentalreq.html">Rental Requirements</a></li>
+          <li><a href="pages/signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="#">support@nestdrive.com</a></p>
+        <p>Phone: <a href="#">+359 567 890</a></p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <p><a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+      </div>
     </div>
-
-    <footer class="footer">
-        <div class="footer-container">
-          
-          <div class="footer-section">
-            <img src="assets/logo.png" alt="NestDrive Logo" class="footer-logo">
-            <p>NestDrive – The Art of Car Rental.</p>
-          </div>
-      
-          <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/whyrent.html">Why Rent?</a></li>
-              <li><a href="pages/typecars.html">Types of Cars</a></li>
-              <li><a href="pages/rentalreq.html">Rental Requirements</a></li>
-              <li><a href="pages/signup.html">Sign Up</a></li>
-            </ul>
-          </div>
-      
-          <div class="footer-section">
-            <h3>Contact Us</h3>
-            <p>Email: <a href="#">support@nestdrive.com</a></p>
-            <p>Phone: <a href="#">+359 567 890</a></p>
-          </div>
-      
-          <div class="footer-section">
-            <h3>Follow Us</h3>
-            <p>
-              <a href="#">Instagram</a> | 
-              <a href="#">Facebook</a> | 
-              <a href="#">Twitter</a>
-            </p>
-          </div>
-      
-        </div>
-      
-        <div class="footer-bottom">
-          <p>&copy; 2025 NestDrive. All rights reserved.</p>
-        </div>
-      </footer>
-
+    <div class="footer-bottom">
+      <p>&copy; 2025 NestDrive. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
+
+

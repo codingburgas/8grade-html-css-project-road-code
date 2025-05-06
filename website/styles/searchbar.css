@@ -1,0 +1,63 @@
+   .rental-search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+  } 
+
+   .search-bar-alt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 24px 32px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; 
+  } 
+  
+  .search-bar-alt input[type="text"],
+  .search-bar-alt input[type="date"],
+  .search-bar-alt input[type="time"] {
+    padding: 14px 18px; 
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #504c4c;
+    min-width: 200px; 
+  }
+  
+  .search-bar-alt label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .field-alt {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .search-btn-alt {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .search-btn-alt:hover {
+    background-color: darkgreen;
+  }
+  
+  
+  
+  
+
+
+
+  
+  
