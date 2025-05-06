@@ -29,10 +29,12 @@ body {
   .card {
     display: flex;
     padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    background: #fff;
+    border: none; 
+    border-radius: 0; 
+    background: none; 
+    box-shadow: none; 
   }
+  
   
   
   .info {
