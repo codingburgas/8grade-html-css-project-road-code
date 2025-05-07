@@ -141,7 +141,7 @@ body {
 
 .back:hover,
 .back:active {
-  background-color: #2b2828; /* Lighter on hover */
+  background-color: #2b2828; 
 }
 
 .back a {
