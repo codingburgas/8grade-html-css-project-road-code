@@ -9,7 +9,7 @@ html, body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 650px;
     background: #fff;
     margin: auto;
     padding: 20px;
@@ -34,7 +34,7 @@ input, select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #777;
     border-radius: 4px;
 }
 
