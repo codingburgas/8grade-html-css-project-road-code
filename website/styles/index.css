@@ -71,24 +71,27 @@ body {
     max-width: 200px;
   }
   
-  .book {
-    border: 2px solid black;
-    padding: 15px;
-    border-radius: 20px;
-    background-color: rgb(227, 227, 227);
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s ease 0s;
-  }
-  
   .book a {
-    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: white;
     color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
   }
   
-  .book:hover {
-    background-color: rgba(227, 227, 227, 0.54);
+  .book a:hover {
+    background-color: rgba(255, 255, 255, 0.4); 
+    color: black;
+    transform: translateY(-2px);
   }
+  
+  
+  
   
   .info {
     display: flex;
