@@ -1,60 +1,67 @@
 body {
-    margin:0;
-    padding:0;
-    font-family: 'Inter', sans-serif;
-    background-color:#EDEDED
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: 'Inter', sans-serif; /* Sets a clean, modern font */
+    background-color: #EDEDED; /* Light gray background */
 }
 
+/* Wrapper for the form to center it vertically and horizontally */
 .form-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 80px); 
+    display: flex; /* Uses flexbox for alignment */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: calc(100vh - 80px); /* Full viewport height minus space for header */
 }
 
+/* Form styling */
 form {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    background-color: #fff; /* White background for the form */
+    padding: 2rem; /* Padding inside the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%; /* Takes full available width */
+    max-width: 400px; /* Maximum width of 400px */
 }
 
+/* Heading styling inside the form */
 h2 {
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #333;
+    text-align: center; /* Centers the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #333; /* Dark gray text color for readability */
 }
 
+/* Styling for form labels */
 label {
-    display: block;
-    margin-top: 1rem;
-    font-weight: bold;
+    display: block; /* Forces labels to take full width */
+    margin-top: 1rem; /* Space above the label */
+    font-weight: bold; /* Makes labels bold for emphasis */
 }
 
+/* Input field styling */
 input {
-    width: 95%;
-    padding: 0.5rem;
-    margin-top: 0.25rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 95%; /* Takes up 95% of the form's width */
+    padding: 0.5rem; /* Padding inside input fields */
+    margin-top: 0.25rem; /* Space above the input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners for inputs */
 }
 
+/* Button styling */
 button {
-  width: 100%;
-  padding: 0.9rem;
-  margin-top: 2rem;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 100%; /* Button takes up full width of the form */
+  padding: 0.9rem; /* Adds padding inside the button */
+  margin-top: 2rem; /* Space above the button */
+  background-color: #333; /* Dark background for the button */
+  color: white; /* White text */
+  border: none; /* Removes default border */
+  border-radius: 8px; /* Rounded corners for the button */
+  font-size: 1rem; /* Sets font size */
+  font-weight: 600; /* Makes text bold */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
 }
 
+/* Button hover effect */
 button:hover {
-  background-color: #111;
+    background-color: #111; /* Darkens button background on hover */
 }

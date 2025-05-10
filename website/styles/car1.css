@@ -1,123 +1,127 @@
 body {
-    margin:0;
-    padding:0;
-    font-family: 'Inter', sans-serif;
-    background-color: #F5F5F5;
+  margin: 0; /* No space around the page */
+  padding: 0; /* No space inside the page edges */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+  background-color: #F5F5F5; /* Light gray background */
 }
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .description {
-    margin-top: 0.5rem;
-    line-height: 1.6;
-  }
-  
-  .show-more {
-    background-color: #fff;
-    border: 2px solid #000000;
-    color: #00703c;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    font-weight: bold;
-  }
 
-  
-  .card {
-    display: flex;
-    padding: 1rem;
-    border: none; 
-    border-radius: 0; 
-    background: none; 
-    box-shadow: none; 
-  }
-  
-  
-  
-  .info {
-    flex: 1;
-  }
-  
-  .icons {
-    margin: 0.5rem 0;
-    display: flex;
-    gap: 1.5rem;
-    font-size: 0.95rem;
-  }
-  
-  .features {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .features ul {
-    list-style-type: disc;
-    padding-left: 1rem;
-  }
-  
-  .car-image img {
-    width: 300px;
-    max-width: 100%;
-    height: auto;
-  }
-  .toggle-checkbox {
-    display: none;
-  }
-  
-  .more-text {
-    display: none;
-  }
-  
-  .toggle-button {
-    display: inline-block;
-    cursor: pointer;
-    background-color: #fff;
-    border: 2px solid #000000;
-    color: #000000;
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .toggle-button .hide {
-    display: none;
-  }
-  
-  .toggle-checkbox:checked ~ .description .more-text {
-    display: inline;
-  }
-  
-  .toggle-checkbox:checked ~ .toggle-button .show {
-    display: none;
-  }
-  
-  .toggle-checkbox:checked ~ .toggle-button .hide {
-    display: inline;
-  }
-  .back {
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .back a {
-    display: inline-block;
-    padding: 12px 30px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 12px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .back a:hover {
-    background-color: #333;
-    transform: translateY(-2px);
-  }
+.container {
+  max-width: 1000px; /* Set a max width */
+  margin: 0 auto; /* Center the container */
+}
+
+.description {
+  margin-top: 0.5rem; /* Add top space */
+  line-height: 1.6; /* Space between lines */
+}
+
+.show-more {
+  background-color: #fff;
+  border: 2px solid #000000;
+  color: #00703c; /* Green text */
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 2rem; /* Rounded edges */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  display: flex; /* Put items in a row */
+  padding: 1rem;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.info {
+  flex: 1; /* Fill remaining space */
+}
+
+.icons {
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 1.5rem; /* Space between items */
+  font-size: 0.95rem;
+}
+
+.features {
+  display: flex;
+  gap: 2rem; /* Space between sections */
+}
+
+.features ul {
+  list-style-type: disc; /* Show bullets */
+  padding-left: 1rem;
+}
+
+.car-image img {
+  width: 300px;
+  max-width: 100%; /* Shrink for smaller screens */
+  height: auto; /* Keep aspect ratio */
+}
+
+.toggle-checkbox {
+  display: none; /* Hide checkbox */
+}
+
+.more-text {
+  display: none; /* Hide extra text */
+}
+
+.toggle-button {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease; /* Smooth change */
+}
+
+.toggle-button .hide {
+  display: none; /* Hide "Show Less" at first */
+}
+
+/* Show extra text when checked */
+.toggle-checkbox:checked ~ .description .more-text {
+  display: inline;
+}
+
+/* Hide "Show More" when checked */
+.toggle-checkbox:checked ~ .toggle-button .show {
+  display: none;
+}
+
+/* Show "Show Less" when checked */
+.toggle-checkbox:checked ~ .toggle-button .hide {
+  display: inline;
+}
+
+.back {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.back a {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back a:hover {
+  background-color: #333; /* Slightly lighter black */
+  transform: translateY(-2px); /* Move up slightly */
+}
+
   

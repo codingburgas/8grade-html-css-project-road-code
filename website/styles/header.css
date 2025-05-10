@@ -1,55 +1,65 @@
 header {
-    display:flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-    flex-wrap: wrap;
-    z-index: 1000;
-}
-
-header .logo {
-    width: 100%;
-    max-width: 200px;
-}
-
-.sign ul {
-    list-style: none;
-    display:flex;
-    gap:25px;
-    padding:0;
-    margin:0;
-}
-
-.sign ul a {
-    text-decoration: none;
-}
-
-.signin {
-    border:2px solid black;
-    border-radius: 15px;
-    padding:5px 15px;
-    transition: all 0.3s ease 0s;
-}
-
-.signup {
-    border:1px solid black;
-    border-radius: 15px;
-    padding:5px 10px;
-    background-color:black;
-    transition: all 0.3s ease 0s;
-}
-
-.signin:hover {
-    background-color:#cfcfcf;
-}
-
-.signup:hover{
-    background-color:#2f2f2f;
-}
-
-.signin-a {
-    color:black;
-}
-
-.signup-a {
-    color:white;
-}
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between logo and sign-in/sign-up */
+    padding: 10px 30px; /* Adds padding inside the header */
+    flex-wrap: wrap; /* Allows wrapping if space runs out */
+    z-index: 1000; /* Keeps header on top */
+  }
+  
+  /* Logo styling */
+  header .logo {
+    width: 100%; /* Full width */
+    max-width: 200px; /* Max width of logo */
+  }
+  
+  /* Sign-in and sign-up links list */
+  .sign ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Display as a row */
+    gap: 25px; /* Space between items */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+  }
+  
+  /* Link styling inside sign list */
+  .sign ul a {
+    text-decoration: none; /* Removes underline */
+  }
+  
+  /* Sign-in button styling */
+  .signin {
+    border: 2px solid black; /* Black border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px 15px; /* Padding inside */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Sign-up button styling */
+  .signup {
+    border: 1px solid black; /* Black border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 5px 10px; /* Padding inside */
+    background-color: black; /* Black background */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for sign-in button */
+  .signin:hover {
+    background-color: #cfcfcf; /* Light gray background on hover */
+  }
+  
+  /* Hover effect for sign-up button */
+  .signup:hover {
+    background-color: #2f2f2f; /* Darker gray background on hover */
+  }
+  
+  /* Text color for sign-in button */
+  .signin-a {
+    color: black; /* Black text */
+  }
+  
+  /* Text color for sign-up button */
+  .signup-a {
+    color: white; /* White text */
+  }
+  

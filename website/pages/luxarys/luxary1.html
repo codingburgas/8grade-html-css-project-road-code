@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" href="../../styles/car1.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="../../styles/header.css">
-        <link rel="stylesheet" href="../../styles/footer.css">
-        <link rel="stylesheet" href="../../styles/searchbar.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <title>Mercames-Benzos Q-Class - Nest Drive</title>
+<head>
+  <link rel="stylesheet" href="../../styles/car1.css"> <!-- Links the CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website look good on all screen sizes, like phones and tablets-->
+  <link rel="stylesheet" href="../../styles/header.css"> <!-- Links the CSS -->
+  <link rel="stylesheet" href="../../styles/footer.css"> <!-- Links the CSS -->
+  <link rel="stylesheet" href="../../styles/searchbar.css"/> <!-- Links the CSS -->
+  <title>Mercames-Benzos Q-Class - Nest Drive</title>
     </head>
     
 <body>
-    <header>
-        <a href="../../index.html"><img src="../../assets/logo.png" class="logo"></a>
-        <div class="sign">
-            <ul>
-                <a href="../signin.html" class="signin-a"><li class="signin">Sign In</li></a>
-                <a href="../signup.html" class="signup-a"><li class="signup">Sign up</li></a>
-            </ul>
-        </div>
-    </header>
+  <header>
+    <a href="../../index.html"><img src="../../assets/logo.png" class="logo" alt="NestDrive Logo"/></a> <!-- Links to the homepage with the NestDrive logo -->
+    <div class="sign">
+      <ul>
+        <a href="../../pages/signin.html" class="signin-a"><li class="signin">Sign In</li></a> <!-- Links for sign-in and sign-up -->
+        <a href="../../pages/signup.html" class="signup-a"><li class="signup">Sign Up</li></a> <!-- Links for sign-in and sign-up -->
+      </ul>
+    </div>
+  </header>
 
     <div class="container">
         <h1><strong>Compact Rental</strong></h1>
@@ -30,7 +25,7 @@
 
         <p class="description">
           A midsize luxury sedan offering a range of powertrains, including
-            <span class="more-text">
+            <span class="more-text"> <!-- This part is hidden and shown when the checkbox is checked -->
               a turbocharged 4-cylinder with 255 hp, a turbocharged inline-6 with hybrid assist producing 
               375 hp, and a high-performance hybrid variant delivering 577 hp. It features seating for five, 
               advanced safety technologies, and a spacious interior with premium materials. Fuel efficiency 
@@ -39,9 +34,9 @@
             </span>
         </p>
         <label for="toggle" class="toggle-button">
-            <span class="show">Show More &#x25BC;</span>
-            <span class="hide">Show Less &#x25B2;</span>
-        </label>
+          <span class="show">Show More &#x25BC;</span> <!-- This span is visible by default -->
+          <span class="hide">Show Less &#x25B2;</span> <!-- This span is shown only when the checkbox is checked -->
+      </label>
 
         <div class="card">
             <div class="info">
@@ -115,7 +110,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2025 NestDrive. All rights reserved.</p>
+      <p>&copy; 2025 NestDrive. All rights reserved.</p> <!-- Adds the © symbol -->
     </div>
   </footer>
       

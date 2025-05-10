@@ -1,72 +1,67 @@
 html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+    height: 100%; /* Fill the whole screen */
+    font-family: Arial, sans-serif; /* Use Arial font */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px 0; /* Space at top and bottom */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Stack elements vertically */
 }
 
 .container {
-    max-width: 650px;
-    background: #fff;
-    margin: auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    flex-grow: 1;
-    margin-bottom: 40px; 
+    max-width: 650px; /* Set max width */
+    background: #fff; /* White background */
+    margin: auto; /* Center on page */
+    padding: 20px; /* Space inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
+    flex-grow: 1; /* Take up space in layout */
+    margin-bottom: 40px; /* Space below */
 }
 
 h2 {
-    text-align: center;
-    color: #333;
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark gray text */
 }
 
 label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
+    display: block; /* One label per line */
+    margin-top: 15px; /* Space above */
+    font-weight: bold; /* Make text bold */
 }
 
 input, select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #777;
-    border-radius: 4px;
+    width: 100%; /* Fill full width */
+    padding: 10px; /* Inner space */
+    margin-top: 5px; /* Space above */
+    border: 1px solid #777; /* Gray border */
+    border-radius: 4px; /* Rounded edges */
 }
 
 button {
-    margin-top: 20px;
-    background: #28a745;
-    color: #fff;
-    padding: 12px;
-    border: none;
-    width: 100%;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
+    margin-top: 20px; /* Space above */
+    background: #28a745; /* Green background */
+    color: #fff; /* White text */
+    padding: 12px; /* Inner space */
+    border: none; /* No border */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Text size */
+    border-radius: 4px; /* Rounded edges */
+    cursor: pointer; /* Show pointer on hover */
 }
 
 button:hover {
-    background: #218838;
+    background: #218838; /* Darker green on hover */
 }
 
 .car-image {
-    width: 100%;
-    margin-top: 20px;
-    text-align: center;
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space above */
+    text-align: center; /* Center image */
 }
 
 .car-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
+    max-width: 100%; /* Fit the container */
+    height: auto; /* Keep proportions */
+    border-radius: 6px; /* Rounded corners */
 }
-
-
-  
-  
-  
