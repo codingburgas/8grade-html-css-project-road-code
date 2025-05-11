@@ -17,6 +17,7 @@ html, body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
     text-align: center; /* Centers text inside the container */
     margin-top: 80px; /* Adds top margin to create space from top of page */
+    margin-bottom: 40px;
 }
 
 /* Styles for the "Go Home" button */

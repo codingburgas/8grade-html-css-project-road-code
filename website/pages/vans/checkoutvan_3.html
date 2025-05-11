@@ -27,7 +27,7 @@
     <img src="../../assets/vans1-9/van3.png" alt="">
   </div>
 
-  <form>
+  <form action="../thankyou.html" method="get">
     <label for="duration">Rental Duration</label>
     <select id="duration" name="duration">
       <option value="1">1 Day - $50</option>
@@ -35,26 +35,23 @@
       <option value="7">1 Week - $300</option>
       <option value="30">1 Month - $1000</option>
     </select>
-
+  
     <label for="name">Full Name</label>
     <input type="text" id="name" name="name" required>
-
+  
     <label for="email">Email Address</label>
     <input type="email" id="email" name="email" required>
-
+  
     <label for="card">Credit Card Number</label>
     <input type="text" id="card" name="card" maxlength="16" required>
-
+  
     <label for="expiry">Expiry Date</label>
     <input type="month" id="expiry" name="expiry" required>
-
+  
     <label for="cvv">CVV</label>
     <input type="text" id="cvv" name="cvv" maxlength="4" required>
-
-    <a href="../thankyou.html">
-      <button type="submit">Pay Now</button>
-    </a>
-    
+  
+    <button type="submit">Pay Now</button>
   </form>
 </div>
 

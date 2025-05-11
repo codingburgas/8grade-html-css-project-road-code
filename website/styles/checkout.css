@@ -2,8 +2,8 @@ html, body {
     height: 100%; /* Fill the whole screen */
     font-family: Arial, sans-serif; /* Use Arial font */
     background-color: #f4f4f4; /* Light gray background */
-    padding: 20px 0; /* Space at top and bottom */
     margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
     display: flex; /* Use flex layout */
     flex-direction: column; /* Stack elements vertically */
 }
@@ -11,12 +11,11 @@ html, body {
 .container {
     max-width: 650px; /* Set max width */
     background: #fff; /* White background */
-    margin: auto; /* Center on page */
-    padding: 20px; /* Space inside the box */
+    margin: 40px auto 60px auto; /* Top, sides, bottom margins */
+    padding: 20px 30px;  /* Space inside the box */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
-    flex-grow: 1; /* Take up space in layout */
-    margin-bottom: 40px; /* Space below */
+    flex-grow: 1; /* Take up remaining vertical space */
 }
 
 h2 {
@@ -25,17 +24,22 @@ h2 {
 }
 
 label {
-    display: block; /* One label per line */
-    margin-top: 15px; /* Space above */
-    font-weight: bold; /* Make text bold */
+    display: block;               /* Makes the label a block element */
+    margin-top: 20px;             /* Adds space above the label */
+    margin-bottom: 6px;           /* Adds space below the label */
+    font-weight: 600;             /* Slightly bold text */
+    font-size: 15px;              /* Increases font size */
+    color: #030303;               /* Dark gray color */
 }
 
 input, select {
-    width: 100%; /* Fill full width */
-    padding: 10px; /* Inner space */
-    margin-top: 5px; /* Space above */
-    border: 1px solid #777; /* Gray border */
-    border-radius: 4px; /* Rounded edges */
+    width: 100%;                  /* Full width */
+    padding: 10px 12px;           /* Adds padding inside */
+    margin: 0;                    /* Removes extra margin */
+    border: 1px solid #000000;    /* Dark border */
+    border-radius: 4px;           /* Rounded corners */
+    font-size: 14px;              /* Same font size */
+    box-sizing: border-box;       /* Includes padding in width/height */
 }
 
 button {
@@ -61,7 +65,11 @@ button:hover {
 }
 
 .car-image img {
-    max-width: 100%; /* Fit the container */
-    height: auto; /* Keep proportions */
-    border-radius: 6px; /* Rounded corners */
+    max-width: 100%;        /* Responsive width */
+    height: auto;           /* Maintain aspect ratio */
+    max-height: 300px;      /* Increased from 200px to 300px */
+    margin: 0 auto;         /* Center the image horizontally */
+    display: block;         /* Ensure margin auto works */
+    border-radius: 6px;     /* Rounded corners */
+    object-fit: contain;    /* Keep the image fully visible */
 }
