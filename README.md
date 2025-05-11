@@ -50,4 +50,4 @@
 <h2>Installation</h2>
 
 <p>You can download our project by pasting the following code in your cmd:</p>
-<pre>git add https://github.com/codingburgas/8grade-html-css-project-road-code</pre>
+<pre>git clone https://github.com/codingburgas/8grade-html-css-project-road-code</pre>
