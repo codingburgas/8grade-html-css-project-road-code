@@ -1,67 +1,60 @@
 body {
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    font-family: 'Inter', sans-serif; /* Sets modern font */
-    background-color: #EDEDED; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #EDEDED;
 }
 
-/* Form container styling */
 .form-wrapper {
-    display: flex; /* Flexbox layout */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    height: calc(100vh - 80px); /* Full viewport height minus header space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
 }
 
-/* Form styling */
 form {
-    background-color: #fff; /* White background */
-    padding: 2rem; /* Space inside form */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    width: 100%; /* Full width of the container */
-    max-width: 400px; /* Maximum form width */
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
 }
 
-/* Form heading styling */
 h2 {
-    text-align: center; /* Centers the title */
-    margin-bottom: 1rem; /* Space below the heading */
-    color: #333; /* Dark text for visibility */
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
-/* Label styling */
 label {
-    display: block; /* Makes label take full width */
-    margin-top: 1rem; /* Space above the label */
-    font-weight: bold; /* Makes label text bold */
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
 }
 
-/* Input field styling */
 input {
-    width: 95%; /* Makes input nearly full width */
-    padding: 0.5rem; /* Padding inside the input */
-    margin-top: 0.25rem; /* Small space above input */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Slightly rounded corners */
+    width: 95%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-/* Button styling */
 button {
-    width: 100%; /* Button takes full width */
-    padding: 0.9rem; /* Space inside the button */
-    margin-top: 2rem; /* Space above button */
-    background-color: #333; /* Dark background for button */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 8px; /* Rounded corners */
-    font-size: 1rem; /* Standard font size */
-    font-weight: 600; /* Bold text */
-    cursor: pointer; /* Cursor changes to pointer */
-    transition: background-color 0.3s ease; /* Smooth hover transition */
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 2rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Button hover effect */
 button:hover {
-    background-color: #111; /* Darker background on hover */
+    background-color: #111;
 }

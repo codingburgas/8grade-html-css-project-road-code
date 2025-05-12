@@ -1,169 +1,155 @@
 body {
-  font-family: 'Inter', sans-serif; /* Modern, clean font */
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
-  background-color: #f9f9f9; /* Light background color */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-/* Hero banner section at the top */
 .hero {
-  background-color: #e8e8e8; /* Slightly darker background */
-  padding: 40px 20px; /* Space inside the hero section */
-  text-align: center; /* Center the content */
+  background-color: #e8e8e8;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .hero img {
-  width: 80%; /* Image scales responsively */
-  max-width: 900px; /* Limits the max size of the image */
+  width: 80%;
+  max-width: 900px;
 }
 
-/* Call-to-action button */
 .cta-button {
-  background-color: #00703c; /* Green background */
-  color: white; /* White text */
-  padding: 10px 20px; /* Space inside the button */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  font-size: 16px; /* Text size */
-  margin-top: 15px; /* Space above */
-  cursor: pointer; /* Pointer on hover */
+  background-color: #00703c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
-/* Section with heading and text */
 .section {
-  padding: 30px 20px; /* Space inside section */
-  text-align: center; /* Center text */
-  background-color: #ffffff; /* White background */
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 .section h2 {
-  margin-bottom: 10px; /* Space below heading */
+  margin-bottom: 10px;
 }
 
 .section p {
-  max-width: 700px; /* Controls text line length */
-  margin: 0 auto 20px auto; /* Centers the paragraph */
-  line-height: 1.6; /* Improves text readability */
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
 }
 
-/* Category filter buttons */
 .categories {
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Center the buttons */
-  flex-wrap: wrap; /* Wrap buttons if needed */
-  gap: 15px; /* Space between buttons */
-  margin-bottom: 20px; /* Space below */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .category-tab {
-  color: #00703c; /* Green text */
-  font-weight: bold; /* Bold text */
-  cursor: pointer; /* Pointer on hover */
+  color: #00703c;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-/* Car grid layout */
 .car-grid {
-  display: grid; /* Grid layout */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
-  gap: 40px; /* Space between grid items */
-  padding: 40px 20px; /* Space inside the grid */
-  max-width: 1000px; /* Max width of the grid */
-  margin: 0 auto; /* Center the grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Individual car card */
 .car-card {
-  display: flex; /* Flexbox layout */
-  flex-direction: column; /* Stack content vertically */
-  justify-content: space-between; /* Space out the items */
-  height: 100%; /* Fill the card space */
-  background-color: #fff; /* White background */
-  border: 1px solid #ddd; /* Light border */
-  border-radius: 10px; /* Rounded corners */
-  padding: 15px; /* Space inside card */
-  text-align: center; /* Center the text */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Light shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* Car image */
 .car-card img {
-  width: 100%; /* Full width image */
-  height: 180px; /* Fixed height */
-  object-fit: contain; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Space below image */
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
-/* Content area inside the car card */
 .card-content {
-  flex: 1; /* Fill the remaining space */
-  display: flex; /* Flexbox layout */
-  flex-direction: column; /* Stack content vertically */
-  justify-content: space-between; /* Space out the items */
-  gap: 4px; /* Space between items */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
 }
 
-/* Car title */
 .car-card h3 {
-  color: #00703c; /* Green text */
-  margin: 5px 0 2px; /* Space around title */
-  font-size: 16px; /* Font size */
+  color: #00703c;
+  margin: 5px 0 2px;
+  font-size: 16px;
 }
 
-/* Car short description */
 .car-card p {
-  margin: 0 0 6px 0; /* Space below description */
-  color: #444; /* Dark gray text */
-  font-size: 14px; /* Font size */
+  margin: 0 0 6px 0;
+  color: #444;
+  font-size: 14px;
 }
 
-/* Car feature details */
 .car-card .details {
-  font-size: 13px; /* Font size */
-  color: #333; /* Dark text */
-  margin-top: 5px; /* Space above details */
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Center the details */
-  gap: 6px; /* Space between details */
-  flex-wrap: wrap; /* Wrap items if needed */
+  font-size: 13px;
+  color: #333;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
-/* Button inside the car card */
 .car-card button {
-  background-color: #00703c; /* Green background */
-  color: white; /* White text */
-  padding: 10px 20px; /* Space inside the button */
-  border: none; /* No border */
-  border-radius: 20px; /* Rounded corners */
-  cursor: pointer; /* Pointer on hover */
-  font-weight: bold; /* Bold text */
-  margin-top: 10px; /* Space above button */
+  background-color: #00703c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-/* Back button section */
 .back {
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Center content */
-  align-items: center; /* Align items centrally */
-  background-color: #000000; /* Black background */
-  padding: 10px 24px; /* Space inside button */
-  border-radius: 20px; /* Rounded corners */
-  margin: 30px auto; /* Center with space above and below */
-  width: fit-content; /* Fit to content width */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 24px;
+  border-radius: 20px;
+  margin: 30px auto;
+  width: fit-content;
+  transition: background-color 0.3s ease;
 }
 
-/* Hover/active effect for back button */
 .back:hover,
 .back:active {
-  background-color: #2b2828; /* Darker black */
+  background-color: #2b2828;
 }
 
-/* Link inside back button */
 .back a {
-  color: white; /* White text */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Bold text */
-  font-size: 16px; /* Font size */
-  padding: 6px 12px; /* Space inside link */
-  border-radius: 12px; /* Rounded corners */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 12px;
 }
+

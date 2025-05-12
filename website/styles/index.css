@@ -1,172 +1,156 @@
 body {
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
-  font-family: 'Inter', sans-serif; /* Sets a clean font */
-  background-color: #F5F5F5; /* Light background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #F5F5F5;
 }
 
-/* Search container at the top */
 .search-container {
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  padding: 50px 0; /* Add padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
 }
 
-/* Main section with background image */
 .main {
-  display: flex; /* Use flexbox */
-  align-items: center; /* Vertically center content */
-  justify-content: center; /* Horizontally center content */
-  padding: 200px 0px; /* Adds padding */
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/car.jpg); /* Background image with overlay */
-  background-position: center; /* Centers background image */
-  background-size: cover; /* Makes image cover the container */
-  background-repeat: no-repeat; /* No repeat */
-  flex-direction: column; /* Stack items vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0px;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../assets/car.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
 }
 
-/* Main text style inside the main section */
 .main-text {
-  max-width: 700px; /* Limits width */
-  font-size: 30px; /* Larger text */
-  text-align: center; /* Center text */
-  color: white; /* White text */
+  max-width: 700px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
 }
 
-/* Flex container for cards */
 .cards {
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Center cards */
-  gap: 30px; /* Space between cards */
-  margin: 50px 20px; /* Margin around cards */
-  flex-wrap: wrap; /* Wrap cards if space runs out */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 20px;
+  flex-wrap: wrap;
 }
 
-/* Card link styles */
 .linkcard {
-  text-decoration: none; /* Remove underline */
-  color: black; /* Black text */
+  text-decoration: none;
+  color: black;
 }
 
-/* Individual card styling */
 .card {
-  padding: 20px; /* Space inside card */
-  flex: 1; /* Flex item takes up available space */
-  max-width: 350px; /* Maximum width of the card */
-  min-width: 300px; /* Minimum width */
-  height: 100px; /* Fixed height */
-  background-color: white; /* White background */
-  border-radius: 14px; /* Rounded corners */
-  text-align: center; /* Center content */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
-  flex-direction: column; /* Stack content vertically */
+  padding: 20px;
+  flex: 1;
+  max-width: 350px;
+  min-width: 300px;
+  height: 100px;
+  background-color: white;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/* Hover effect for cards */
 .card:hover {
-  transform: translateY(-5px); /* Lift card */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Title inside card */
 .card h3 {
-  max-width: 200px; /* Limit title width */
+  max-width: 200px;
 }
 
-/* Button inside the card */
 .book a {
-  display: inline-block; /* Inline block for button */
-  padding: 12px 30px; /* Button padding */
-  background-color: white; /* White background */
-  color: black; /* Black text */
-  font-size: 18px; /* Font size */
-  font-weight: 600; /* Bold text */
-  border: 2px solid white; /* White border */
-  border-radius: 8px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover effect for button */
 .book a:hover {
-  background-color: rgba(255, 255, 255, 0.4); /* Light background on hover */
-  color: black; /* Keep text color black */
-  transform: translateY(-2px); /* Lift button slightly */
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  transform: translateY(-2px);
 }
 
-/* Info section styling */
 .info {
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Center content horizontally */
-  flex-direction: column; /* Stack content vertically */
-  max-width: 80rem; /* Limit max width */
-  margin: 50px auto; /* Center with margin */
-  text-align: center; /* Center text */
-  padding: 20px; /* Padding inside */
-  border-radius: 20px; /* Rounded corners */
-  background-color: white; /* White background */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 80rem;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Search section styling */
 .search-section {
-  display: flex; /* Flexbox layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items */
-  gap: 30px; /* Space between items */
-  margin: 40px auto; /* Centered margin */
-  padding: 0 20px; /* Horizontal padding */
-  max-width: 1200px; /* Max width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 40px auto;
+  padding: 0 20px;
+  max-width: 1200px;
 }
 
-/* Search bar alternative styling */
 .search-bar-alt {
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Center items */
-  gap: 16px; /* Space between elements */
-  background: white; /* White background */
-  padding: 16px 24px; /* Padding inside */
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Input fields inside the search bar */
 .search-bar-alt input[type="text"],
 .search-bar-alt input[type="date"],
 .search-bar-alt input[type="time"] {
-  padding: 10px 14px; /* Padding inside input */
-  font-size: 16px; /* Font size */
-  border-radius: 6px; /* Rounded corners */
-  border: 1px solid #ccc; /* Light gray border */
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
-/* Pickup group section */
 .pickup-group {
-  display: flex; /* Flexbox layout */
-  flex-direction: column; /* Stack items vertically */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Search button styling */
 .search-btn-alt {
-  background-color: green; /* Green background */
-  color: white; /* White text */
-  padding: 10px 16px; /* Padding inside */
-  border: none; /* No border */
-  border-radius: 8px; /* Rounded corners */
-  font-weight: bold; /* Bold text */
-  cursor: pointer; /* Pointer on hover */
+  background-color: green;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-/* Hover effect for search button */
 .search-btn-alt:hover {
-  background-color: darkgreen; /* Dark green on hover */
+  background-color: darkgreen;
 }
+
 
   
 

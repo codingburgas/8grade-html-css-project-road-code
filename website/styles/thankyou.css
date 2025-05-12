@@ -1,65 +1,60 @@
 html, body {
-    height: 100%; /* Ensures the body stretches the full height of the viewport */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    display: flex; /* Uses flexbox for layout */
-    flex-direction: column; /* Stacks elements vertically */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Container for the main content */
 .container {
-    flex-grow: 1; /* Allows the container to take up remaining space */
-    max-width: 600px; /* Restricts the container's width */
-    background: #fff; /* White background for the container */
-    margin: auto; /* Centers the container horizontally */
-    padding: 20px; /* Adds padding inside the container */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    text-align: center; /* Centers text inside the container */
-    margin-top: 80px; /* Adds top margin to create space from top of page */
+    flex-grow: 1;
+    max-width: 600px;
+    background: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
-/* Styles for the "Go Home" button */
 .go-home {
-    display: inline-block; /* Makes the link behave like a button */
-    margin-top: 20px; /* Space above the button */
-    background-color: #28a745; /* Green background for the button */
-    color: white; /* White text */
-    padding: 12px 25px; /* Padding inside the button */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    border-radius: 4px; /* Slightly rounded corners */
-    text-decoration: none; /* Removes underline */
-    text-align: center; /* Centers text inside the button */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Hover effect for the button */
 .go-home:hover {
-    background-color: #218838; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
-/* Focus effect for the button (when clicked or focused) */
 .go-home:focus {
-    outline: 2px solid #fff; /* White outline when focused */
-    outline-offset: 4px; /* Offset the outline for visibility */
+    outline: 2px solid #fff;
+    outline-offset: 4px;
 }
 
-/* Styling for the "Thank You" image container */
 .thank-you-image {
-    margin-top: 20px; /* Adds space above the image container */
-    text-align: center; /* Centers the image */
+    margin-top: 20px;
+    text-align: center;
 }
 
-/* Ensures the image is responsive and centered */
 .thank-you-image img {
-    max-width: 50%; /* Limits the image width to 50% of its container */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0 auto; /* Centers the image horizontally */
-    display: block; /* Ensures the image is treated as a block element */
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
+
 
 
 

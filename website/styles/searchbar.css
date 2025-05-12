@@ -1,70 +1,54 @@
 .rental-search-wrapper {
-  display: flex; /* Flexbox layout */
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
-  padding: 80px 20px; /* Adds padding on top and bottom */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
 }
 
-/* Styling for the alternative search bar */
 .search-bar-alt {
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Centers items vertically */
-  gap: 20px; /* Space between elements */
-  background-color: rgb(255, 255, 255); /* White background */
-  padding: 24px 32px; /* Padding inside the search bar */
-  border-radius: 16px; /* Rounded corners */
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
 }
 
-/* Styling for input fields in the search bar */
 .search-bar-alt input[type="text"],
 .search-bar-alt input[type="date"],
 .search-bar-alt input[type="time"] {
-  padding: 14px 18px; /* Padding inside inputs */
-  font-size: 18px; /* Font size */
-  border-radius: 8px; /* Rounded corners */
-  border: 1px solid #504c4c; /* Dark gray border */
-  min-width: 200px; /* Ensures a minimum width for inputs */
+  padding: 14px 18px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #504c4c;
+  min-width: 200px;
 }
 
-/* Styling for input labels */
 .search-bar-alt label {
-  font-size: 16px; /* Font size for labels */
-  font-weight: 600; /* Bold labels */
+  font-size: 16px;
+  font-weight: 600;
 }
 
-/* Field wrapper for grouping input elements */
 .field-alt {
-  display: flex; /* Flexbox layout */
-  flex-direction: column; /* Stack elements vertically */
-  gap: 6px; /* Space between input and label */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-/* Styling for the search button */
 .search-btn-alt {
-  background-color: green; /* Green background */
-  color: rgb(255, 255, 255); /* White text */
-  padding: 14px 20px; /* Padding inside the button */
-  border: none; /* No border */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Font size */
-  font-weight: bold; /* Bold text */
-  cursor: pointer; /* Pointer cursor on hover */
-  white-space: nowrap; /* Prevent text from wrapping */
+  background-color: green;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
-/* Hover effect for the search button */
 .search-btn-alt:hover {
-  background-color: darkgreen; /* Darker green on hover */
-}
-
-  
-  
-  
-  
-
-
-
-  
-  
+  background-color: darkgreen;
+} 

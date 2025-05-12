@@ -1,75 +1,76 @@
 html, body {
-    height: 100%; /* Fill the whole screen */
-    font-family: Arial, sans-serif; /* Use Arial font */
-    background-color: #f4f4f4; /* Light gray background */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Use flex layout */
-    flex-direction: column; /* Stack elements vertically */
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
-    max-width: 650px; /* Set max width */
-    background: #fff; /* White background */
-    margin: 40px auto 60px auto; /* Top, sides, bottom margins */
-    padding: 20px 30px;  /* Space inside the box */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
-    flex-grow: 1; /* Take up remaining vertical space */
+    max-width: 650px;
+    background: #fff;
+    margin: 40px auto 60px auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-grow: 1;
 }
 
 h2 {
-    text-align: center; /* Center the heading */
-    color: #333; /* Dark gray text */
+    text-align: center;
+    color: #333;
 }
 
 label {
-    display: block;               /* Makes the label a block element */
-    margin-top: 20px;             /* Adds space above the label */
-    margin-bottom: 6px;           /* Adds space below the label */
-    font-weight: 600;             /* Slightly bold text */
-    font-size: 15px;              /* Increases font size */
-    color: #030303;               /* Dark gray color */
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #030303;
 }
 
 input, select {
-    width: 100%;                  /* Full width */
-    padding: 10px 12px;           /* Adds padding inside */
-    margin: 0;                    /* Removes extra margin */
-    border: 1px solid #000000;    /* Dark border */
-    border-radius: 4px;           /* Rounded corners */
-    font-size: 14px;              /* Same font size */
-    box-sizing: border-box;       /* Includes padding in width/height */
+    width: 100%;
+    padding: 10px 12px;
+    margin: 0;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 button {
-    margin-top: 20px; /* Space above */
-    background: #28a745; /* Green background */
-    color: #fff; /* White text */
-    padding: 12px; /* Inner space */
-    border: none; /* No border */
-    width: 100%; /* Full width */
-    font-size: 16px; /* Text size */
-    border-radius: 4px; /* Rounded edges */
-    cursor: pointer; /* Show pointer on hover */
+    margin-top: 20px;
+    background: #28a745;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 button:hover {
-    background: #218838; /* Darker green on hover */
+    background: #218838;
 }
 
 .car-image {
-    width: 100%; /* Full width */
-    margin-top: 20px; /* Space above */
-    text-align: center; /* Center image */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .car-image img {
-    max-width: 100%;        /* Responsive width */
-    height: auto;           /* Maintain aspect ratio */
-    max-height: 300px;      /* Increased from 200px to 300px */
-    margin: 0 auto;         /* Center the image horizontally */
-    display: block;         /* Ensure margin auto works */
-    border-radius: 6px;     /* Rounded corners */
-    object-fit: contain;    /* Keep the image fully visible */
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 6px;
+    object-fit: contain;
 }
+

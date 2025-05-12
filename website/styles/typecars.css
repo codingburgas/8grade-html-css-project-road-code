@@ -1,44 +1,41 @@
 body {
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    font-family: 'Inter', sans-serif; /* Sets a clean, modern font */
-    background-color: #EDEDED; /* Light gray background for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #EDEDED;
 }
 
-/* Container for content, centered on the page */
 .container {
-    max-width: 800px; /* Maximum width of the container */
-    margin: 60px auto; /* Centers the container horizontally and adds top/bottom spacing */
-    padding: 40px; /* Adds internal padding for spacing */
-    background-color: #f9f9f9; /* Light background color for the container */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Subtle shadow to create depth */
-    border-radius: 10px; /* Rounded corners for the container */
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
 }
 
-/* Heading styling */
 h1 {
-    color: #526584; /* Soft blue-gray color for the heading */
-    font-size: 32px; /* Large font size for the heading */
-    margin-bottom: 30px; /* Space below the heading */
-    text-align: center; /* Centers the heading text */
+    color: #526584;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-/* Styling for the "Back" button section */
 .back {
-    border-radius: 14px; /* Rounded corners for the button */
-    background-color: black; /* Black background for the button */
-    padding: 10px; /* Padding inside the button for spacing */
-    text-align: center; /* Centers the button text */
-    display: flex; /* Uses flexbox for layout inside the button */
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Centers the content vertically */
-    margin: 30px auto; /* Centers the button horizontally and adds margin on top and bottom */
-    width: 150px; /* Sets a fixed width for the button */
+    border-radius: 14px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 150px;
 }
 
-/* Styling for the link inside the "Back" button */
 .back a {
-    flex: 1; /* Makes the anchor element take up available space in the button */
-    text-decoration: none; /* Removes underline from the link */
-    color: white; /* White text color for the link */
+    flex: 1;
+    text-decoration: none;
+    color: white;
 }
+
