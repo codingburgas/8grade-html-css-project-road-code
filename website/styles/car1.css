@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1000px; 
+  max-width: 62.5rem; 
   margin: 0 auto; 
 }
 
@@ -17,7 +17,7 @@ body {
 
 .show-more {
   background-color: #fff;
-  border: 2px solid #000000;
+  border: 0.125rem solid #000000;
   color: #00703c;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
@@ -57,7 +57,7 @@ body {
 }
 
 .car-image img {
-  width: 300px;
+  width: 18.75rem;
   max-width: 100%; 
   height: auto; 
 }
@@ -74,7 +74,7 @@ body {
   display: inline-block;
   cursor: pointer;
   background-color: #fff;
-  border: 2px solid #000000;
+  border: 0.125rem solid #000000;
   color: #000000;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
@@ -107,18 +107,18 @@ body {
 
 .back a {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 0.75rem 1.875rem;
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .back a:hover {
   background-color: #333; 
-  transform: translateY(-2px); 
+  transform: translateY(-0.125rem); 
 }
 
   
